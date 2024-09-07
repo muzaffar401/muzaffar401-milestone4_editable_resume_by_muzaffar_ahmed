@@ -21,7 +21,7 @@ form{
 }
 
 fieldset{
-    border: 2px solid #388ead;
+    border: 2px solid #30a02d;
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
@@ -44,13 +44,13 @@ input,textarea{
     width: calc(100% - 1px);
     padding: 8px;
     margin-top: 4px;
-    border: 1px solid #388ead;
+    border: 1px solid #30a02d;
     border-radius: 4px;
     box-sizing: border-box;
 }
 input:focus,
 textarea:focus {
-    border: 1px solid #005a7a !important;
+    border: 1px solid #30a02d!important;
     outline: none;
 }
 
@@ -78,7 +78,7 @@ button:hover{
     max-width: 600px;
     margin: auto;
     padding: 20px;
-    border: 2px #388ead;
+    border: 2px #30a02d;
     border-radius: 8px;
     background-color: aliceblue;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -90,4 +90,10 @@ color: #2c3e58;
 
 .error{
     color: red;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
 }
